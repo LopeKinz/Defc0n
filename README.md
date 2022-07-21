@@ -30,7 +30,7 @@
 * Linux:
   * `sudo apt update`
   * `sudo apt install python3 python3-pip git -y`
-  * `git clone https://github.com/LimerBoy/Impulse`
+  * `git clone https://github.com/LopeKinz/Defc0n`
   * `cd Impulse/`
   * `pip3 install -r requirements.txt`
   * `python3 defc0n.py --help`
@@ -38,10 +38,10 @@
 * Termux:
   * `pkg update`
   * `pkg install python3 python3-pip git -y`
-  * `git clone https://github.com/LimerBoy/Impulse`
+  * `git clone https://github.com/LopeKinz/Defc0n`
   * `cd Impulse/`
   * `pip3 install -r requirements.txt`
-  * `python3 impulse.py --help`
+  * `python3 defc0n.py --help`
 
 # :phone: Example SMS & Call flood:
 ```python3 defc0n.py --method SMS --time 20 --threads 15 --target +380123456789```
