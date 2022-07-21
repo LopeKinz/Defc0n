@@ -1,4 +1,4 @@
-# :bomb: Impulse
+# :bomb: Defc0n
 ## Modern Denial-of-service ToolKit
 
 
@@ -6,10 +6,7 @@
   <img src="https://i.ibb.co/rFct6QX/LOGO.png">
 </p>
 
-# :computer: Main window
-<p align="center">
-  <img src="https://i.ibb.co/8c1fb1Q/Impulse-Main.png">
-</p>
+
 
 # :satellite: Methods:
 | Method               |   Target   | Description |
