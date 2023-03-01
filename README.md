@@ -46,12 +46,12 @@
 
 
 * Upcoming Features:
- * `Main Menu`
- * `Android Application`
- * `Modern DOS Methods`
- * `Support Server`
- * `Connunity contributions`
- * `Maybe GUI Version`
+  * `Main Menu`
+  * `Android Application`
+  * `Modern DOS Methods`
+  * `Support Server`
+  * `Connunity contributions`
+  * `Maybe GUI Version`
 
 # :phone: Example SMS & Call flood:
 ```python3 defc0n.py --method SMS --time 20 --threads 15 --target +380123456789```
