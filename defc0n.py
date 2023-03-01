@@ -1,4 +1,4 @@
-# Created by LimerBoy
+# Created by LimerBoy remasterd by pinkyhax
 # Import modules
 import os
 import sys
