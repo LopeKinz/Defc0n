@@ -50,7 +50,7 @@
   * `Android Application`
   * `Modern DOS Methods`
   * `Support Server`
-  * `Connunity contributions`
+  * `Community contributions`
   * `Maybe GUI Version`
 
 # :phone: Example SMS & Call flood:
