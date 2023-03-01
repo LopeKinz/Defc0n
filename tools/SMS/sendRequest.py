@@ -101,6 +101,10 @@ class Service:
         # Create suffixes
         okay = f"{Fore.YELLOW}Service ({getDomain(url)}) >> Message sent!{Fore.RESET}"
         error = f"{Fore.MAGENTA}Service ({getDomain(url)}) >> Failed to sent message!{Fore.RESET}"
+        domain = error.split("(")[1].split(")")[0]
+        with open("debug.txt", "a") as f:
+            f.write(domain + os.linesep + "Error")
+        
 
         session = requests.Session()
         request = requests.Request("POST", url)
