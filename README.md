@@ -1,4 +1,4 @@
-# :bomb: Defc0n
+# :bomb: Defc0n an Impulse Remaster
 ## Modern Denial-of-service ToolKit
 ### WIP Version
 
