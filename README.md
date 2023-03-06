@@ -1,8 +1,8 @@
 # :bomb: Defc0n an Impulse Remaster
 ## Modern Denial-of-service ToolKit
-### WIP Version
+# WIP Version
 
-
+###All credits to Limerboy!
 
 
 # :satellite: Methods:
