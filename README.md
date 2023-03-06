@@ -53,8 +53,8 @@
   * `Community contributions`
   * `Maybe GUI Version`
 
-# :phone: Example SMS & Call flood:
-```python3 defc0n.py --method SMS --time 20 --threads 15 --target +380123456789```
+# Changelog
+  * `(06.03.2023) : Easier Usage - Removed Argphrase`
 
 
  
