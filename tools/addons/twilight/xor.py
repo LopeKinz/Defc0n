@@ -4,12 +4,9 @@ from base64 import b64decode
 
 # Xor
 def xor(text, key):
-    out = ''
-    for i in range(len(text)):
-        current = text[i]
-        current_key = key[i % len(key)]
-        out += chr(ord(current) ^ ord(current_key))
-    return out
+    return ''.join(
+        chr(ord(text[i]) ^ ord(key[i % len(key)])) for i in range(len(text))
+    )
 
 # Encode : [text => xor => base64]
 def encode(text, key):

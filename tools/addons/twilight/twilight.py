@@ -8,12 +8,10 @@ def Encrypt(text, key):
     
     salt = Hash.getSaltByKey(key, text)
     saltedText = Salt.protect(text, salt)
-    xoredText  = Xor.encode(saltedText, key)
-    return xoredText
+    return Xor.encode(saltedText, key)
 
 # Decrypt function
 def Decrypt(text, key):
     unxoredText = Xor.decode(text, key)
     salt = Hash.getSaltByKey(key, unxoredText)
-    unsaltData  = Salt.unprotect(unxoredText, salt)
-    return unsaltData
+    return Salt.unprotect(unxoredText, salt)

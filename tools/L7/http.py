@@ -4,11 +4,7 @@ import random
 import tools.randomData as randomData
 from colorama import Fore
 
-# Load user agents
-user_agents = []
-for _ in range(30):
-    user_agents.append(randomData.random_useragent())
-
+user_agents = [randomData.random_useragent() for _ in range(30)]
 # Headers
 headers = {
     "X-Requested-With": "XMLHttpRequest",

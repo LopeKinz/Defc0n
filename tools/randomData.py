@@ -4,9 +4,7 @@ import random
 
 # Get random IP
 def random_IP():
-    ip = []
-    for _ in range(0, 4):
-        ip.append(str(random.randint(1, 255)))
+    ip = [str(random.randint(1, 255)) for _ in range(0, 4)]
     return ".".join(ip)
 
 

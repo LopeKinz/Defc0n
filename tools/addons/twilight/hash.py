@@ -12,7 +12,7 @@ def getSaltByKey(key, message):
         for char in kHash:
             if len(salt) == len(message):
                 break
-            if not char in ascii_letters:
+            if char not in ascii_letters:
                 salt += char
 
         if len(salt) == len(message):

@@ -11,7 +11,7 @@ def protect(message, salt):
 
     # Add salt characters to list
     for char in message:
-        if not char in saltChars:
+        if char not in saltChars:
             saltChars.append(char)
 
     # Add salt to message
