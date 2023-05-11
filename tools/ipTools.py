@@ -18,8 +18,8 @@ def __isCloudFlare(link):
         origin = socket.gethostbyname(domain)
         iprange = requests.get("https://www.cloudflare.com/ips-v4").text
         ipv4 = [row.rstrip() for row in iprange.splitlines()]
-        for i in range(len(ipv4)):
-            if ipaddress.ip_address(origin) in ipaddress.ip_network(ipv4[i]):
+        for item in ipv4:
+            if ipaddress.ip_address(origin) in ipaddress.ip_network(item):
                 print(
                     f"{Fore.RED}[!] {Fore.YELLOW}The site is protected by CloudFlare, attacks may not produce results.{Fore.RESET}"
                 )

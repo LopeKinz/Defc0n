@@ -9,7 +9,7 @@ from tools.addons.twilight.twilight import Decrypt, Encrypt
 
 # File with login data
 sender_email_database = "tools/EMAIL/sender.json"
-twilight_encryption_key = getuser() + ":TWILIGHT"
+twilight_encryption_key = f"{getuser()}:TWILIGHT"
 smtp_server = "smtp.gmail.com"
 smtp_port = 587
 

